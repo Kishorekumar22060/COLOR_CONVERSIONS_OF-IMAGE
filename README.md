@@ -71,7 +71,8 @@ else:
     cv2.waitKey(0)
 ```
 ### OUTPUT:
-![Screenshot 2024-09-02 185344](https://github.com/user-attachments/assets/41822fc8-c64d-4770-b164-e52bb3cc1020)
+!<img width="298" alt="Screenshot 2024-09-10 at 11 56 41 AM" src="https://github.com/user-attachments/assets/431316f7-e3f0-4c4b-8e6a-9dcd9b802191">
+
 
 
 ### ii)Draw Shapes and Add Text
@@ -111,7 +112,7 @@ cv2.imshow('Image with Shapes and Text', image_with_text)
 cv2.waitKey(0)
 ```
 ### OUTPUT:
-![Screenshot 2024-09-02 185558](https://github.com/user-attachments/assets/79eaae9f-10b9-49cf-96ed-da1752ec7d30)
+<img width="298" alt="Screenshot 2024-09-10 at 11 56 41 AM" src="https://github.com/user-attachments/assets/f62e4c92-72bf-413b-8fbf-07b474eb616a">
 
 ### iii)Image Color Conversion
 ```
@@ -137,14 +138,8 @@ cv2.imshow('HSV to RGB Image', hsv_to_rgb_image)
 cv2.waitKey(0)
 ```
 ### OUTPUT:
-# Convert the image from RGB to HSV and display it:
-![Screenshot 2024-09-02 185803](https://github.com/user-attachments/assets/48c5f665-777b-40a9-82df-6b37b064e0aa)
-# Convert the image from RGB to GRAY and display it:
-![Screenshot 2024-09-02 185815](https://github.com/user-attachments/assets/e36f7c2a-792d-485c-a914-6ba5cccca766)
-# Convert the image from RGB to YCrCb and display it:
-![Screenshot 2024-09-02 185829](https://github.com/user-attachments/assets/37299544-b9cb-42f7-a1dd-3db4a036ec82)
-# Convert the HSV image back to RGB and display it:
-![Screenshot 2024-09-02 185842](https://github.com/user-attachments/assets/48f7e3a1-6bfc-4f31-b0e2-3e804382577a)
+<img width="734" alt="Screenshot 2024-09-11 at 8 41 38 AM" src="https://github.com/user-attachments/assets/fd06a38f-2e0d-4a5f-9864-29ac6d249f72">
+
 
 ### iv)Access and Manipulate Image Pixels
 ```
@@ -158,7 +153,7 @@ image[200, 200] = [255, 255, 255]
 print(f"Modified pixel value at (200, 200): {image[200, 200]}")
 ```
 ### OUTPUT:
-![Screenshot 2024-09-02 185925](https://github.com/user-attachments/assets/d4d3a1af-ce4d-4e88-b8f7-c039af5c5a48)
+<img width="374" alt="Screenshot 2024-09-11 at 8 44 51 AM" src="https://github.com/user-attachments/assets/360695ba-8267-4ea1-938f-1939fe8d7b67">
 
 ### v)Image Resizing
 ```
@@ -169,7 +164,7 @@ cv2.imshow('Resized Image', resized_image)
 cv2.waitKey(0)
 ```
 ### OUTPUT:
-![Screenshot 2024-09-02 185954](https://github.com/user-attachments/assets/a67981d6-3d51-45f5-b78b-a2e6ae6d60fb)
+<img width="374" alt="Screenshot 2024-09-11 at 8 44 51 AM" src="https://github.com/user-attachments/assets/c380564d-4e9d-471c-80d7-a9442c059f79">
 
 ### vi)Image Cropping
 ```
@@ -180,7 +175,7 @@ cv2.imshow('Cropped ROI Image', roi)
 cv2.waitKey(0)
 ```
 ### OUTPUT:
-![Screenshot 2024-09-02 190028](https://github.com/user-attachments/assets/c6d28613-bc43-491c-9988-ecb37a5ede6f)
+<img width="374" alt="Screenshot 2024-09-10 at 1 17 49 PM" src="https://github.com/user-attachments/assets/1fc7af26-6094-41d0-aa39-60a39d5988cf">
 
 ### vii)Image Flipping
 ```
@@ -196,10 +191,9 @@ cv2.imshow('Vertically Flipped Image', flipped_vertically)
 cv2.waitKey(0)
 ```
 ### OUTPUT:
-# Flip the original image horizontally and display it:
-![Screenshot 2024-09-02 190207](https://github.com/user-attachments/assets/c4b04f13-26cb-4a0f-a6c8-26082ec6ad06)
-# Flip the original image vertically and display it:
-![Screenshot 2024-09-02 190235](https://github.com/user-attachments/assets/c8f4229f-9546-4b2b-8b8a-75cfb618917d)
+# Flip the original image horizontally Flip the original image vertically and display it:
+<img width="865" alt="Screenshot 2024-09-11 at 8 42 07 AM" src="https://github.com/user-attachments/assets/be752998-9032-4505-9f7b-0e3c7a2118e0">
+
 
 ### viii)Write and Save the Modified Image
 ```
@@ -209,7 +203,7 @@ cv2.imwrite(output_path, image_with_text)
 print(f"Modified image saved as {output_path}")
 ```
 ### OUTPUT:
-![Screenshot 2024-09-02 191531](https://github.com/user-attachments/assets/e2ea95d3-5d7e-407e-8b45-a6b86eca3ceb)
+<img width="338" alt="Screenshot 2024-09-11 at 8 47 32 AM" src="https://github.com/user-attachments/assets/c12f00af-a396-4040-a9a1-07629c00942f">
 
 ## Result:
 Thus the images are read, displayed, and written ,and color conversion was performed  successfully using the python program.
